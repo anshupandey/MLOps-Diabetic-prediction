@@ -10,6 +10,6 @@ inputs:
     path: azureml://subscriptions/84a5808b-5549-459a-98f2-f102e84fa1bb/resourcegroups/EY23/workspaces/aml-workspace/datastores/workspaceblobstore/paths/LocalUpload/a5b05a17f213e8e12e54948a8e3d1dfa/data/
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: ml-anshu-compute
+compute: ml-anshu-compute-2
 experiment_name: ml-exp
 description: this is first ml experiment
