@@ -7,9 +7,9 @@ command: >-
 inputs:
   training_data:
     type: uri_folder 
-    path: azureml://subscriptions/84a5808b-5549-459a-98f2-f102e84fa1bb/resourcegroups/EY23/workspaces/aml-workspace/datastores/workspaceblobstore/paths/LocalUpload/a5b05a17f213e8e12e54948a8e3d1dfa/data/
+    path: azureml://subscriptions/4980acc2-d47d-47e6-8498-a6b0744658d8/resourcegroups/EYMAY/workspaces/aml-workspace/datastores/workspaceblobstore/paths/UI/2023-05-18_063342_UTC/
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: ml-anshu-compute-2
-experiment_name: ml-exp
-description: this is first ml experiment
+compute: cpu-cluster
+experiment_name: diabetes-mlops
+description: A diabeties classification model
